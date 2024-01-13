@@ -51,6 +51,15 @@
 .order-8 { order: 8; }
 .order-last { order: 99999; }
 
+.gap0 { gap: --spacing-none; }
+.gap1 { gap: --spacing-extra-small; }
+.gap2 { gap: --spacing-small; }
+.gap3 { gap: --spacing-medium; }
+.gap4 { gap: --spacing-large; }
+.gap5 { gap: --spacing-extra-large; }
+.gap6 { gap: --spacing-extra-extra-large; }
+.gap7 { gap: --spacing-extra-extra-extra-large; }
+
 @media (--breakpoint-not-small) {
   .flex-ns { display: flex; }
   .inline-flex-ns { display: inline-flex; }
